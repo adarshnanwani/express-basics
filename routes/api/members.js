@@ -30,6 +30,7 @@ router.post("/", (req, res) => {
   } else {
     members.push(newMember);
     res.json(members);
+    // res.redirect("/"); // Redirect user to the same page - index page
   }
 });
 
