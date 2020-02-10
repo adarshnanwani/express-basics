@@ -6,7 +6,7 @@ const app = express();
 
 // Create a logger middleware
 const logger = (req, res, next) => {
-  console.log("hello");
+  console.log(`${req.protocol}://${req.get("host")}${req.originalUrl}`);
   next();
 };
 
