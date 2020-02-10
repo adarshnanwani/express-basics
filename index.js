@@ -6,6 +6,12 @@ const app = express();
 // Init middleware
 // app.use(logger);
 
+// Add Body Parser middleware - to accept JSON objects in post requests
+app.use(express.json());
+
+// Middleware to handle form data
+app.use(express.urlencoded({ extended: false }));
+
 // Set a static folder
 app.use(express.static(path.join(__dirname, "public")));
 
