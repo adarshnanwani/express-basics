@@ -1,4 +1,4 @@
-#ExpressJS crash course(by [Traversy Media][https://www.youtube.com/watch?v=l72fhgm1tfe&t=42s]) code along
+#ExpressJS crash course(by [Traversy Media](https://www.youtube.com/watch?v=l72fhgm1tfe&t=42s)) code along
 
 ##What is covered here:
 
