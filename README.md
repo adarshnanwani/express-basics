@@ -5,7 +5,6 @@
 - Express Installation and Setup
 - Middleware
 - Routing
-- Template Engines - EJS, Handlebars, Jade
+- Template Engines - EJS
 - Forms & Input
-- Models, ORM & Databases - MongoDB
-- Express Generator
+
